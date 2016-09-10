@@ -1,4 +1,5 @@
 body {
+	background-image:url("./../image/silverware.jpg");
 	background-color: white;
 	color:#404040;
 	font-family:Georgia,Garamond,serif;
@@ -25,7 +26,7 @@ h2 {
 	font-weight:normal;
 }
 
-blockquote {
+.comment {
 	background-color: #FFFFC8;
 }
 
