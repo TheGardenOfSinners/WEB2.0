@@ -1,0 +1,16 @@
+body {
+	background-image: url("image/1.png");
+	font-family:Georgia,Garamond,serif;
+	
+}
+h1 {
+	text-align:center;
+	color:black;
+	background-color:rgb(250,250,250);
+	font-size: 28pt;
+}
+ul {
+	color:#0505A5;
+	font-size: 22pt;
+	
+}

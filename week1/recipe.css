@@ -1,0 +1,35 @@
+body {
+	background-color: white;
+	color:#404040;
+	font-family:Georgia,Garamond,serif;
+	font-size: 11pt;
+}
+
+h1,h2{
+	color: #A4A400;
+	background-color: rgb(240,240,240);
+	text-decoration: underline;
+	font-family:"Century Gothic",Futura,Verdana,serif;
+	
+}
+h1 {
+	font-size:22pt;
+	text-align:center;
+	font-weight:blod;
+	
+	
+}
+
+h2 {
+	font-size:18pt;
+	font-weight:normal;
+}
+
+blockquote {
+	background-color: #FFFFC8;
+}
+
+a {
+	color: #A4A400;
+	text-decoration: underline;
+}
