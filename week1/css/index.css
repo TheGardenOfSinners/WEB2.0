@@ -7,11 +7,16 @@ body {
 h1 {
 	text-align:center;
 	color:black;
-	background-color:rgb(250,250,250);
 	font-size: 28pt;
 }
 ul {
+	list-style-image:url('./../image/2.png');
 	color:#0505A5;
 	font-size: 22pt;
 	
 }
+
+a {
+	color:#0505A5;
+}
+

@@ -11,6 +11,7 @@ h1,h2{
 	background-color: rgb(240,240,240);
 	text-decoration: underline;
 	font-family:"Century Gothic",Futura,Verdana,serif;
+	letter-spacing:0.2em;
 	
 }
 h1 {
@@ -18,12 +19,15 @@ h1 {
 	text-align:center;
 	font-weight:blod;
 	
-	
 }
 
 h2 {
 	font-size:18pt;
 	font-weight:normal;
+}
+
+ul {
+	list-style-image:url('http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
 }
 
 .comment {
