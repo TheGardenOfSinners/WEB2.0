@@ -1,0 +1,297 @@
+body {
+    
+}
+
+/*未曾悬浮的时候*/
+#button {
+    
+    height : 40px;
+    width : 40px;
+    position : absolute;
+    left : 850px;
+    top : 700px;
+    transition-property : width, height, left, top;
+    transition-duration : 0.5s;
+    transition-timing-function : ease-in-out;
+}
+
+#button .icon {
+    height : 40px;
+    width : 40px;
+    background-color : rgba(128, 123, 159, 1);
+    border-width : 0;
+    border-radius : 20px;
+    background-image : url("./../images/atplus_white.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    
+    position : absolute;
+    left : 0;
+    top: 0;
+
+    transition-property : background-image, background-color, width, height,border-radius, left, top;
+    transition-duration : 0.5s;
+    transition-timing-function : ease-in-out;
+
+}
+
+#button .info ul li {
+    list-style:none;
+    display : none;
+}
+
+#button .message {
+    overflow : hidden;
+}
+
+#button .unread {
+    height : 0px;
+    width : 0px;
+    border-radius : 0px;
+    overflow : hidden;
+    display : none;
+}
+
+#button #info-bar {
+    height : 0px;
+    width : 0px;
+    border-radius : 0;
+    overflow : hidden;
+    position : absolute;
+    left : 20px;
+    top : 20px;
+    transition-property : width, height, border-radius, left, top, opacity, background-color;
+    transition-duration : 0.5s;
+    transition-timing-function : ease-in-out;
+    opacity:0;
+}
+
+
+
+#button .button {
+    height : 0px;
+    width : 0px;
+    overflow : hidden;
+    position : absolute;
+    left : 20px;
+    top : 20px;
+    transition-property : background-color, width, height,border-radius, left, top, opacity;
+    transition-duration : 0.5s;
+    transition-timing-function : linear;
+    opacity:0;
+}
+
+
+
+
+/*悬浮的时候*/
+#button:hover {
+    
+    height : 400px;
+    width : 260px;
+    position : absolute;
+    /*  left600
+        top450
+    */
+    left : 730px;
+    top : 480px;
+    
+}
+
+
+
+#button:hover .icon {
+    height : 80px;
+    width : 80px;
+    background-color : rgba(48, 63, 159, 1);
+    border-width : 0;
+    border-radius : 40px;
+    background-image : url("./../images/atplus_green.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    position : absolute;
+    left : 104px;
+    top : 210px;
+    
+    
+}
+
+
+/*悬浮的时候,info*/
+
+#button:hover #info-bar {
+    height : 180px;
+    width : 180px;
+    background-color : grey;
+    border-width : 0;
+    border-radius : 90px;
+    
+    position : absolute;
+    top : 20px;
+    left : 54px;
+    opacity : 1;
+}
+
+/*悬浮的时候,info里面的元素设定*/
+
+#button:hover li {
+    list-style:none;
+    
+}
+
+#button:hover .info ul li {
+    display : block;
+}
+
+#button:hover .info ul li.page {
+    color : white;
+    
+}
+
+
+#button:hover .info ul li.user {
+    font-size : 23px;
+    
+    font-weight : bold;
+
+}
+
+#button:hover .info ul li.user img{
+    transform : scale(1.5);
+    position : relative;
+    top : 5px;
+    left : 13px;
+}
+
+#button:hover .info ul li.user span{
+    position : relative;
+    top : 5px;
+    left : 40px;
+}
+
+#button:hover .info ul li.comment {
+    font-size : 50px;
+    
+}
+
+#button:hover .info ul li.comment img{
+    transform : scale(1.5);
+    position : relative;
+    top : 9px;
+    left : 8px;
+}
+
+#button:hover .info ul li.comment span{
+    position : relative;
+    top : 13px;
+    left : 35px;
+}
+
+#button:hover .info ul li.mine {
+    color : #079E6E;
+    display : inline-block;
+    font-size : 23px;
+    font-weight : bold;
+}
+
+#button:hover .info ul li.posted img{
+    transform : scale(1.5);
+    position : relative;
+    top : 25px;
+    left : -5px;
+}
+
+#button:hover .info ul li.posted span{
+    position : relative;
+    top : 25px;
+    left : 5px;
+}
+
+#button:hover .info ul li.like img{
+    transform : scale(1.5);
+    position : relative;
+    top : 25px;
+    left : 10px;
+}
+
+#button:hover .info ul li.like span{
+    position : relative;
+    top : 25px;
+    left : 25px;
+}
+
+/*悬浮的时候,button*/
+
+
+#button:hover .button {
+    height : 40px;
+    width : 40px;
+    background-color : #5F5F5F;
+    border-width : 0;
+    border-radius : 20px;
+    display : block;
+    opacity:1;
+}
+
+#button:hover .mask {
+    background-image : url("./../images/nomask.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    position : absolute;
+    top : 175px;
+    left : 45px;
+}
+
+#button:hover .history {
+    background-image : url("./../images/history.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    position : absolute;
+    top : 225px;
+    left : 26px;
+}
+
+#button:hover .message {
+    background-image : url("./../images/message.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    position : absolute;
+    top : 271px;
+    left : 48px;
+    overflow : visible;
+}
+
+#button:hover .setting {
+    background-image : url("./../images/setting.png");
+    background-repeat : no-repeat;
+    background-position : center;
+    position : absolute;
+    top : 307px;
+    left : 92px;
+}
+
+#button:hover .sign {
+    background-image: url("./../images/signin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 304px;
+    left: 145px;
+}
+
+#button:hover .unread {
+    height : 20px;
+    width : 20px;
+    background-color : red;
+    border-width : 0;
+    border-radius : 10px;
+    color : white;
+    font-weight : bold;
+    text-align : center;
+    float : right;
+    display : block;
+    transition-property : width, height,border-radius;
+    transition-duration : 2s;
+    transition-timing-function : linear;
+    opacity : 1;
+}
