@@ -9,10 +9,10 @@ body {
     width : 40px;
     position : absolute;
     left : 850px;
-    top : 700px;
-    transition-property : width, height, left, top;
-    transition-duration : 0.5s;
-    transition-timing-function : ease-in-out;
+    top : 800px;
+    transition : all 0.4s ease-out 0.1s;
+    -moz-transition : all 0.4s ease-out 0.1s;
+    -webkit-transition : all 0.4s ease-out 0.1s;
 }
 
 #button .icon {
@@ -24,14 +24,14 @@ body {
     background-image : url("./../images/atplus_white.png");
     background-repeat : no-repeat;
     background-position : center;
-    
     position : absolute;
     left : 0;
     top: 0;
-
-    transition-property : background-image, background-color, width, height,border-radius, left, top;
-    transition-duration : 0.5s;
-    transition-timing-function : ease-in-out;
+    transition : all 0.4s ease-out 0.1s;
+    -moz-transition : all 0.4s ease-out 0.1s;
+    -webkit-transition : all 0.4s ease-out 0.1s;
+    
+    
 
 }
 
@@ -60,10 +60,10 @@ body {
     position : absolute;
     left : 20px;
     top : 20px;
-    transition-property : width, height, border-radius, left, top, opacity, background-color;
-    transition-duration : 0.5s;
-    transition-timing-function : ease-in-out;
     opacity:0;
+    transition : all 0.4s ease-out 0.1s;
+    -moz-transition : all 0.4s ease-out 0.1s;
+    -webkit-transition : all 0.4s ease-out 0.1s;
 }
 
 
@@ -73,11 +73,10 @@ body {
     width : 0px;
     overflow : hidden;
     position : absolute;
+    border-radius : 0px;
     left : 20px;
     top : 20px;
-    transition-property : background-color, width, height,border-radius, left, top, opacity;
-    transition-duration : 0.5s;
-    transition-timing-function : linear;
+    transition : all 0.4s ease-out 0.1s;
     opacity:0;
 }
 
@@ -90,12 +89,8 @@ body {
     height : 400px;
     width : 260px;
     position : absolute;
-    /*  left600
-        top450
-    */
     left : 730px;
-    top : 480px;
-    
+    top : 580px;
 }
 
 
@@ -112,8 +107,6 @@ body {
     position : absolute;
     left : 104px;
     top : 210px;
-    
-    
 }
 
 
@@ -125,7 +118,6 @@ body {
     background-color : grey;
     border-width : 0;
     border-radius : 90px;
-    
     position : absolute;
     top : 20px;
     left : 54px;
@@ -145,15 +137,12 @@ body {
 
 #button:hover .info ul li.page {
     color : white;
-    
 }
 
 
 #button:hover .info ul li.user {
     font-size : 23px;
-    
     font-weight : bold;
-
 }
 
 #button:hover .info ul li.user img{
@@ -171,7 +160,6 @@ body {
 
 #button:hover .info ul li.comment {
     font-size : 50px;
-    
 }
 
 #button:hover .info ul li.comment img{
